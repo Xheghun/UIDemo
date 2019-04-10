@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UI Demo</string>
+    <string name="battle_angel">Battle Angel</string>
+    <string name="_45_mins">45 mins</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="segun" formatted="false">&#169; ysenruf\@gmail.com - 2019</string>
+
+    <string-array name="titles">
+        <item>Call of Duty: Modern Warfare Walkthrough</item>
+        <item>Gear of War Ultimate Edition</item>
+        <item>Forza:Motosport Race 1</item>
+        <item>Grand Turismo Career Mode</item>
+        <item>Fifa \'16 Skill Test with Ginx</item>
+        <item>PES 16 Trailer and Game Review</item>
+        <item>Madden 19 Gameplay Review</item>
+        <item>Gear of War Ultimate Review</item>
+    </string-array>
+    <string-array name="time">
+        <item>120 mins</item>
+        <item>18 mins</item>
+        <item>10 mins</item>
+        <item>60 mins</item>
+        <item>22 mins</item>
+        <item>4 min</item>
+        <item>11 mins</item>
+        <item>90 mins</item>
+    </string-array>
+</resources>

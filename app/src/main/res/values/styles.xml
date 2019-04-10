@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Widget.UIDemo.ProfileName" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+    <style name="Widget.UIDemo.ProfileNumbers" parent="Widget.UIDemo.ProfileName">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Widget.UIDemo.InfoTitle" parent="Widget.UIDemo.ProfileNumbers">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorTextNormal</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.UIDemo.CardTitleText" parent="Widget.UIDemo.InfoTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+    </style>
+    <style name="Widget.UIDemo.ArtistText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Widget.UIDemo.ToggleButton" parent="android:Widget">
+        <item name="android:background">@drawable/ic_toggle_bg</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="toggleButton"  parent="android:Theme.Black">
+        <item name="android:buttonStyleToggle">@style/Widget.UIDemo.ToggleButton</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+    <!-- Text Button-->
+    <style name="Widget.UIDemo.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+</resources>
